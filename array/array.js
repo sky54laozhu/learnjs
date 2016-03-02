@@ -5,9 +5,31 @@ arr.length = 8;
 alert(arr);
 var arr = [1,2,3];
 arr[5] = 'x';
-alert(arr);*/
+alert(arr);
 var arr = [10,20,'30','xyz'];
 alert(arr.indexOf(10));
 alert(arr.indexOf(20));
 alert(arr.indexOf(30));
 alert(arr.indexOf('30'));
+var arr = ['A','B','C','D','E','F','G'];
+alert(arr.slice(0, 3));
+alert(arr.slice(3));
+var aCopy = arr.slice();
+alert(aCopy);
+alert(aCopy === arr)
+var arr = [1,2];
+arr.push('A','B');
+alert(arr);
+arr.pop();
+alert(arr);
+var arr = [1, 2];
+arr.unshift('A','B');
+alert(arr);
+arr.shift();
+alert(arr);*/
+var arr = ['B','C','A'];
+alert(arr);
+arr.sort();
+alert(arr);
+arr.reverse();
+alert(arr);
