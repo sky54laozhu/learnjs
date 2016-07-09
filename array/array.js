@@ -41,6 +41,8 @@ var arrtemp = [];
 arrtemp = arr.splice(2,3,'Google','Facebook');
 alert(arr);
 alert(arrtemp);
+
+
 alert(arr.splice(2,2));
 alert(arr);
 alert(arr.splice(2,0,'Google','Facebook'));
